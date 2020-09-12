@@ -1,0 +1,53 @@
+html body {
+    margin: 0;
+}
+
+/* .App {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+header {
+    display: flex;
+    background-color: orangered;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 300px;
+}
+
+.right-links {
+    margin-right: 300px;
+}
+
+header li {
+    display: inline-flex;
+    list-style: none;
+    margin-right: 26px;
+}
+
+header li a {
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+@media screen and (max-width: 1220px) {
+    .logo {
+        margin-left: 100px;
+    }
+    
+    .right-links {
+        margin-right: 100px;
+    }
+}
+
+@media screen and (max-width: 632px) {
+    .right-links {
+        display: none;
+    }
+}
