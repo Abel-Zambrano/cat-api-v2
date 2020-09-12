@@ -17,3 +17,5 @@ const catPics =
 const randOne = catPics[Math.floor(Math.random() * catPics.length)];
 
 console.log('Random cat: ', randOne);
+
+export default randOne;
