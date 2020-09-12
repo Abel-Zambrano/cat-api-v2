@@ -5,7 +5,7 @@ function Heading() {
         <header>
             <div className='logo'>
                 <ul>
-                <li><a href=""><i id="logo" class="fas fa-cat"></i>Cat API</a></li>
+                <li><a href=""><i id="logo" class="fas fa-cat"></i> Cat API</a></li>
                 </ul>
             </div>
             <div className='right-links'>

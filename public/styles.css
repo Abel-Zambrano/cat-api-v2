@@ -16,10 +16,13 @@ header {
 
 .logo {
     margin-left: 300px;
+    font-size: 26px;
 }
 
 .right-links {
+    margin-top: 10px;
     margin-right: 300px;
+    font-size: 20px;
 }
 
 header li {
@@ -33,7 +36,7 @@ header li a {
     font-family: 'Dancing Script', cursive;
     color: white;
     font-weight: 700;
-    font-size: 26px;
+    
 }
 
 .image-content {
