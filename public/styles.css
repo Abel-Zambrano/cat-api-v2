@@ -10,7 +10,7 @@ html body {
 
 header {
     display: flex;
-    background-color: orangered;
+    background-color: darkslategray;
     justify-content: space-between;
 }
 
@@ -31,10 +31,70 @@ header li {
 header li a {
     text-decoration: none;
     font-family: 'Dancing Script', cursive;
-    color: whitesmoke;
+    color: white;
     font-weight: 700;
     font-size: 26px;
 }
+
+.image-content {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+
+.cat-image {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.button-content {
+    display: flex;
+    width: 40%;
+    margin: auto;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+
+#love-btn {
+    margin-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 0.5em;
+}
+
+#love-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+#thumbs-up {
+    margin-right: 0.5em;
+}
+
+#nope-btn {
+    margin-left: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: #f44336;
+    border: none;
+    border-radius: 0.5em;
+}
+
+#nope-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+#thumbs-down {
+    margin-right: 0.5em;
+}
+
 
 @media screen and (max-width: 1220px) {
     .logo {
@@ -46,8 +106,12 @@ header li a {
     }
 }
 
-@media screen and (max-width: 632px) {
+@media screen and (max-width: 740px) {
     .right-links {
         display: none;
+    }
+
+    .button-content {
+        width: 80%;
     }
 }
