@@ -12,10 +12,6 @@ const catPics =
 { id:10, url:'https://cdn2.thecatapi.com/images/e9d.jpg'},
 ];
 
-
-
 const randOne = catPics[Math.floor(Math.random() * catPics.length)];
-
-console.log('Random cat: ', randOne);
 
 export default randOne;
